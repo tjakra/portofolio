@@ -1,0 +1,155 @@
+:root{
+    --skillh: #aa2323;
+    --skillb: #d33030;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/1200x/4f/1c/7b/4f1c7bd606536bffc68eb12e8789deda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 1rem;
+    background: linear-gradient(180deg, black, grey);
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(189, 17, 17, 0.2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 188, 2, 0.2) 50%,
+											  rgba(26, 141, 3, 0.2) 75%,
+											  transparent 75%,
+											  transparent);
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(44, 44, 44); 
+}
+
+.navbar{
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.socialmedia{
+    width: 3.5rem;
+    height: 6rem;
+    text-overflow: none;
+    position: fixed;
+    top: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.socialmedia ul{
+    position: absolute;
+    left:  -1rem;
+}
+
+.socialmedia li{
+    list-style: none;
+    padding-top: 0.5rem;
+}
+
+.socialmedia p{
+    transition: 0.3s;
+}
+
+.socialmedia p:hover{
+    transform: scale(1.5);
+}
+
+.socialmedia a{
+    color: white;
+}
+
+.up{
+    border: 0px;
+    padding: 1rem;
+    position: fixed;
+    top: 90%;
+    right: 0%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.af{
+    display: none;
+}
+
+.up:hover{
+    .be{
+        display: none;
+    }
+    .af{
+        display: block;
+    }
+}
+
+.home{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/302/766/original/silhouette-landscape-with-fog-forest-pine-trees-mountains-illustration-of-night-view-mist-black-and-white-good-for-wallpaper-background-banner-cover-poster-free-vector.jpg");
+    background-size: cover;
+    height: 42rem;
+    width: 100%;
+}
+.home-text{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.about{
+    height: 35rem;
+    background-image: url("https://i.pinimg.com/1200x/4f/1c/7b/4f1c7bd606536bffc68eb12e8789deda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+.skills{
+    color: white;
+    height: 37rem;
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(2px);
+}
+
+.icon img{
+    transition: 0.3s;
+}
+
+.icon img:hover{
+    transform: scale(1.2);
+}
+
+.background{
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+}
+
+.reveal{
+    color: white;
+    transform: scalex(0);
+    transition: 0.5s;
+}
+
+.reveal.active{
+    transform: scale(1);
+}

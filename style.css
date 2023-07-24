@@ -50,7 +50,7 @@ body{
 
 .socialmedia{
     width: 3.5rem;
-    height: 6rem;
+    height: 9rem;
     text-overflow: none;
     position: fixed;
     top: 50%;
@@ -140,7 +140,7 @@ body{
 }
 
 .background{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(2px);
 }
 

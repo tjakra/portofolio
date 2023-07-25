@@ -126,11 +126,11 @@ body{
 
 .skills{
     color: white;
-    height: 37rem;
+    height: 35rem;
     background-color: rgba(0, 0, 0, 0.24);
     backdrop-filter: blur(2px);
 }
-.biodata{
+.hiden{
     overflow: hidden;
 }
 

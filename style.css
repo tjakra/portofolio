@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("https://i.pinimg.com/1200x/4f/1c/7b/4f1c7bd606536bffc68eb12e8789deda.jpg");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/332/607/827/the-sky-stars-landscape-night-wallpaper-preview.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -121,7 +121,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    border-radius: 10px;
 }
 
 .skills{
@@ -161,5 +160,6 @@ body{
 }
 
 .footer{
-    height: 5rem;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }

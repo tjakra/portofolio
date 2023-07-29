@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+    background-image: url("foto/space.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,13 +24,13 @@ body{
 .planet{
     width: 20em;
     height: 20em;
-    background: url("https://media.istockphoto.com/id/182058785/photo/world-topographic-map.jpg?s=612x612&w=0&k=20&c=eWrcGjNB9o-KrzW4TC2yxUII7k5E26QIqlN3JEJu1e4=");
+    background: url("foto/earth.jpg");
     box-shadow: inset -2em -2em 2em #000, -0.5em -0.5em 1em #8bb3f0;
     position: relative;
     animation: rotate 10s linear infinite;
 }
 .moon{
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPzVyNu2Au8GDCQkJaGRPEvQkRgBVWz-gBCOsiOxMrlE-uDl8H2tnpzNK74DHA5ozbWyU&usqp=CAU");
+    background: url("foto/moon.jpg");
     box-shadow: inset -2em -2em 2em #000, -0.5em -0.5em 1em #ccc;
     width: 6em;
     height: 6em;
@@ -157,7 +157,7 @@ body{
 }
 
 .home{
-    background-image: url("https://static.vecteezy.com/system/resources/previews/009/302/766/original/silhouette-landscape-with-fog-forest-pine-trees-mountains-illustration-of-night-view-mist-black-and-white-good-for-wallpaper-background-banner-cover-poster-free-vector.jpg");
+    background-image: url("foto/home.jpg");
     background-size: cover;
     height: 42rem;
     width: 100%;

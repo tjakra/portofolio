@@ -1,5 +1,5 @@
 var text = document.querySelector(".text")
-var isi = "HELLO, MY NAME IS CAKRA SATRIA PUTRA!"
+var isi = "HELLO, MY NAME IS CAKRA!"
 var isi2 = "I AM A WEB DEVELOPER"
 var next =false
 var i = 0
@@ -9,7 +9,6 @@ var b = 0
 setInterval(function(){
   if(next){
     typing(isi2,false)
-    console.log(next)
   }
   else{
     typing(isi, true)

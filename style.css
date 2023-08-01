@@ -164,17 +164,18 @@ body{
     box-shadow: 2px -158px 94px -41px rgba(0,0,0,0.75) inset;
 }
 .home-text{
-    position: absolute;
-    bottom: 25%;
+    position: relative;
+    top: 60%;
     left: 5%;
     font-family: cursive;
+    width: 90%;
     color: white;
 }
 
 .home .text-about{
     width: 25rem;
-    position: absolute;
-    bottom: 4%;
+    position: relative;
+    top: 70%;
     left: 5%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
